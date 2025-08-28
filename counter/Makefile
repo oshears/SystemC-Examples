@@ -10,7 +10,7 @@ LDFLAGS = -L$(SYSTEMC)/lib -lsystemc
 # Source and target
 SRCS = design.cpp testbench.cpp
 OBJS = $(SRCS:.cpp=.o)
-TARGET = counter_sim
+TARGET = sim
 
 all: $(TARGET)
 
