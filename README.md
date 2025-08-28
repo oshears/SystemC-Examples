@@ -30,3 +30,9 @@ docker commit systemc_dev_container ghcr.io/oshears/systemc-dev:latest
 # Push the new image to GHCR
 docker push ghcr.io/oshears/systemc-dev:latest
 ```
+
+- *Optional* To build the docker image from scratch:
+
+```bash
+docker build -t systemc-dev:latest .
+```
